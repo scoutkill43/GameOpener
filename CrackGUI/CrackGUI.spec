@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['CrackGUI.py'],
-             pathex=['C:\\Users\\Samuel\\PycharmProjects\\Practice\\CrackGUI'],
+             pathex=['C:\\Users\\Samuel\\PycharmProjects\\Practice\\GameOpener\\CrackGUI'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -23,7 +23,7 @@ exe = EXE(pyz,
           debug=False,
           strip=False,
           upx=True,
-          console=True )
+          console=False )
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,
